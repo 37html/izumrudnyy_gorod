@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="" >
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+              <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">
+                О проекте
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">
+                Предложения
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">
+                Как купить
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">
+                Акции
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__phone" href="tel:88005506040">
+          8 (800) 550 60 40 
+        </a>
+      </div>      
+      <div class="header__info">
+        <h1 class="header__title">
+          Изумрудный город
+        </h1>
+        <p class="header__subtitle-1">
+          Коттеджный поселок комфорт-класса в Краснодаре
+        </p>
+        <p class="header__subtitle-2">
+          Готовые коттеджи от 3 млн рублей
+        </p>
+          <p class="header__text-1">
+            Газ, свет и вода
+          </p>
+          <p class="header__text-2">
+            Проведение коммуникаций включено
+          </p>
+          <p class="header__text-3">
+            Городская прописка, ИЖС
+          </p>
+        </div>
+      <button class="header__btn">
+        скачать презентацию
+      </button>
+    </div>
+  </header>
+
+   <main>
+    <section class="about">
+      <div class="container">
+      <div class="about__inner">
+        <div class="about__village">
+          <h2 class="about__village-title title">
+            О посёлке
+          </h2>
+          <p class="about__village-text">
+            КП «Изумрудный город» – это благоустроенная коттеджная жизнь в приятном окружении экологически чистого района Краснодара. Посёлок расположен в черте города и окружен природой. Уединенность, свежий воздух и тишина - главные составляющие спокойной жизни. При этом городская инфраструктура в пешей доступности.
+          </p>
+          <button onclick="window.location.href='#popup-village'" class="about__village-btn" href="#">
+            записаться на экскурсию
+          </button>
+        </div>
+        <div class="about__infrastructure">
+          <h2 class="about__infrastructure-title title">
+            Инфраструктура
+          </h2>
+          <ul class="about__infrastructure-list">
+            <li class="about__infrastructure-item about__infrastructure-item-1">
+              экологичный район
+            </li>
+            <li class="about__infrastructure-item about__infrastructure-item-2">
+              единый европейский стиль
+            </li>
+            <li class="about__infrastructure-item about__infrastructure-item-3">
+              Охраняемая территория
+            </li>
+            <li class="about__infrastructure-item about__infrastructure-item-4">
+              центральный газ
+            </li>
+            <li class="about__infrastructure-item about__infrastructure-item-5">
+              детские сады и школы
+            </li>
+            <li class="about__infrastructure-item about__infrastructure-item-6">
+              предчистовая отделка
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      <div id="popup-village" class="popup-village">
+      <div class="popup-village__body">
+        <div class="popup-village__content">
+          <a class="popup-village__close" href="#">
+            X
+          </a>
+          <form class="popup-village__form">
+          <h3 class="popup-village__title-form">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </h3>
+            <input class="popup-village__input-name" type="text" placeholder="имя">
+            <input class="popup-village__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="popup-village__form-btn"  type="submit">
+              записаться
+            </button>
+
+            <label class="popup-village__form-checkbox">
+              <input class="popup-village__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+    </section>
+
+    <section class="typeshouse">
+      <div class="container">
+        <div class="typeshouse__inner">
+          <div class="typeshouse__info">
+            <h2 class="typeshouse__title title">
+              Более 10 видов домов
+            </h2>
+            <p class="typeshouse__text">
+              Мы готовы предложить вам готовые планировки одноэтажных и двухэтажных домов. А кроме того, у вас есть возможность самостоятельно придумать дом своей мечты. А мы его построим!
+            </p>
+          </div>
+          <div class="typeshouse__box">
+            <p class="typeshouse__price-in">
+              В стоимость строительства входят:
+            </p>
+            <ul class="typeshouse__list">
+              <li class="typeshouse__item">
+                электрические ворота
+              </li>
+              <li class="typeshouse__item">
+                кирпичный забор
+              </li>
+              <li class="typeshouse__item">
+                радиаторы
+              </li>
+              <li class="typeshouse__item">
+                газовый котел 
+              </li>
+              <li class="typeshouse__item">
+                отсыпной двор 
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="findout-price">
+      <div class="container">
+      <h3 class="findout-price__title">
+        Внимание ! Акция! Выгода 500 000 рублей при наличном расчете!
+      </h3>
+      <div class="findout-price__inner">
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-1.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-2.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-3.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-4.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-5.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-6.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-7.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-8.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+        <div class="findout-price__box">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-9.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+      </div>
+
+      
+      <div class="findout-price__form-box">
+
+        <div class="findout-price__box-2">
+          <p class="findout-price__text">
+            Дом 6,6 х 12 м, 3 сотки 
+          </p>
+          <div class="findout-price__img-box">
+            <img class="findout-price__img" src="images/house-9.jpg" alt="" >
+          </div>
+          <p class="findout-price__discription">
+            2 этажа. Малый эркер
+          </p>
+          <button onclick="window.location.href='#popup-price'" class="findout-price__btn">
+            Узнать стоимость
+          </button>
+        </div>
+
+        <form class="findout-price__form">
+          <h3 class="findout-price__title-form">
+            Закажите обратный звонок и получите консультацию
+          </h3>
+            <input class="findout-price__input-name" type="text" placeholder="имя">
+            <input class="findout-price__input-tel" type="text" placeholder="Телефон">
+            <button onclick="window.location.href='#popup'" class="findout-price__form-btn" type="submit">
+              Заказать звонок
+            </button>
+            <label class="findout-price__form-checkbox">
+              <input class="findout-price__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+      </div>
+      </div>
+
+
+      <div id="popup-price" class="popup-price">
+      <div class="popup-price__body">
+        <div class="popup-price__content">
+          <a class="popup-price__close" href="#">
+            X
+          </a>
+          <form class="popup-price__form">
+          <h3 class="popup-price__title-form">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </h3>
+            <input class="popup-price__input-name" type="text" placeholder="имя">
+            <input class="popup-price__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="popup-price__form-btn"  type="submit">
+              Узнать стоимость
+            </button>
+
+            <label class="popup-price__form-checkbox">
+              <input class="popup-price__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="waystobuy">
+      <div class="container">
+        <h2 class="waystobuy__title title">
+          Способы покупки
+        </h2>
+        <div class="waystobuy__inner">
+          <div class="waystobuy__item">
+            <div class="waystobuy__item-box">
+              <div class="waystobuy__item-box-num">
+                01
+              </div>
+              <div class="waystobuy__item-box-name">
+                Наличный расчет
+              </div>
+            </div>
+            <p class="waystobuy__item-text">
+              Выгода 500 000 рублей при расчете наличными средствами
+            </p>
+            <button onclick="window.location.href='#popup-waystobuy'" class="waystobuy__item-btn">
+              узнать стоимость
+            </button>
+          </div>
+          <div class="waystobuy__item">
+            <div class="waystobuy__item-box">
+              <div class="waystobuy__item-box-num">
+                02
+              </div>
+              <div class="waystobuy__item-box-name">
+                Рассрочка
+              </div>
+            </div>
+            <p class="waystobuy__item-text">
+              Рассрочка от 3 до 6 месяцев. Первоначальный взнос от 50 000 рублей
+            </p>
+            <button onclick="window.location.href='#popup-waystobuy'" class="waystobuy__item-btn">
+              Оформить рассрочку
+            </button>
+          </div>
+          <div class="waystobuy__item">
+            <div class="waystobuy__item-box">
+              <div class="waystobuy__item-box-num">
+                03
+              </div>
+              <div class="waystobuy__item-box-name">
+                Ипотека
+              </div>
+            </div>
+            <p class="waystobuy__item-text">
+              Дом вашей мечты можно купить в ипотеку на выгодных условиях
+            </p>
+            <button onclick="window.location.href='#popup-waystobuy'" class="waystobuy__item-btn">
+              Одобрить ипотеку
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="popup-waystobuy" class="popup-waystobuy">
+      <div class="popup-waystobuy__body">
+        <div class="popup-waystobuy__content">
+          <a class="popup-waystobuy__close" href="#">
+            X
+          </a>
+          <form class="popup-waystobuy__form">
+          <h3 class="popup-waystobuy__title-form">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </h3>
+            <input class="popup-waystobuy__input-name" type="text" placeholder="имя">
+            <input class="popup-waystobuy__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="popup-waystobuy__form-btn"  type="submit">
+              Получить консультацию
+            </button>
+
+            <label class="popup-waystobuy__form-checkbox">
+              <input class="popup-waystobuy__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+    </section>
+
+    <section class="repair">
+      <div class="container">
+        <h2 class="repair__title title">
+          Ремонт “под ключ” от 500 000 рублей
+        </h2>
+        <div class="repair__inner">
+          <div class="repair__items">
+            <p class="repair__item">
+              Плитка во дворе
+            </p>
+            <p class="repair__item">
+              ламинат и теплый пол
+            </p>
+            <p class="repair__item">
+              Итальянские обои и натяжной потолок
+            </p>
+            <p class="repair__item">
+              Межкомнатные двери и плинтусы
+            </p>
+            <p class="repair__item">
+              Электрические розетки и выключатели
+            </p>
+            <p class="repair__item">
+              люк с мансардной лестницей
+            </p>
+            <p class="repair__item">
+              напольный кафель (прихожая, кухня, с/у)
+            </p>
+            <p class="repair__item">
+              кафель в с/у (стены)
+            </p>
+            <button onclick="window.location.href='#popup-repair'" class="repair__item-btn">
+              Рассчитать ремонт
+            </button>
+          </div>
+          <div class="repair__img-wraper">
+            <div class="repair__img-box">
+              <img class="repair__img" src="images/repair-1.jpg" alt="" >
+            </div>
+            <div class="repair__img-box">
+              <img class="repair__img" src="images/repair-2.jpg" alt="" >
+            </div>
+            <div class="repair__img-box">
+              <img class="repair__img" src="images/repair-3.jpg" alt="" >
+            </div>
+            <div class="repair__img-box">
+              <img class="repair__img" src="images/repair-4.jpg" alt="" >
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="popup-repair" class="popup-repair">
+      <div class="popup-repair__body">
+        <div class="popup-repair__content">
+          <a class="popup-repair__close" href="#">
+            X
+          </a>
+          <form class="popup-repair__form">
+          <h3 class="popup-repair__title-form">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </h3>
+            <input class="popup-repair__input-name" type="text" placeholder="имя">
+            <input class="popup-repair__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="popup-repair__form-btn"  type="submit">
+              Рассчитать  ремонт
+            </button>
+
+            <label class="popup-repair__form-checkbox">
+              <input class="popup-repair__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="filter">
+      <div class="container">
+        <h2 class="filter__title title">
+          Этажность дома. Один или два?
+        </h2>
+        <div class="filter__items">
+          <p class="filter__text">
+            Этажность дома. Один или два?
+          </p>
+          <div class="filter__item">
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox">1 этаж</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox">2 этажа</span>
+            </label>
+          </div>
+          <p class="filter__text">
+            Количество комнат в доме?
+          </p>
+          <div class="filter__item">
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-rooms">1 комната</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-rooms">2 комнаты</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-rooms">3 комнаты</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-rooms">4 комнаты</span>
+            </label>
+          </div>
+          <p class="filter__text">
+            Желаете пристроить дополнительно:
+          </p>
+          <div class="filter__item">
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-builds">Баня</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-builds">Терраса</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-builds">Мансарда</span>
+            </label>
+            <label class="filter__label">
+              <input class="filter__input" type="checkbox" />
+              <span class="filter__checkbox-builds">Погреб</span>
+            </label>
+          </div>
+        </div>
+        <button onclick="window.location.href='#popup-form'" class="filter__btn">
+          сделать расчет
+        </button>
+      </div>
+
+      <div id="popup-form" class="popup-form">
+      <div class="popup-form__body">
+        <div class="popup-form__content">
+          <a class="popup-form__close" href="#">
+            X
+          </a>
+          <form class="popup-form__form">
+          <h3 class="popup-form__title-form">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </h3>
+            <input class="popup-form__input-name" type="text" placeholder="имя">
+            <input class="popup-form__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="popup-form__form-btn"  type="submit">
+              Подобрать дом
+            </button>
+
+            <label class="popup-form__form-checkbox">
+              <input class="popup-form__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="addition">
+      <div class="container">
+      <h2 class="addition__title title">
+        Рекомендуем заказать дополнительно
+      </h2>
+      <div class="addition__inner">
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              Теплый пол
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-1.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              Тротуарная плитка
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-2.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              Баня
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-3.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              терраса
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-4.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              навес
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-5.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              балкон/погреб
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-6.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              Подвал
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-7.jpg" alt="" >
+          </div>
+          <p class="addition__item-price">
+            2000 рублей м2
+          </p>
+          <p class="addition__item-description">
+            Работа + материалы
+          </p>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              поднятие конька
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-8.jpg" alt="" >
+          </div>
+          <div class="addition__item-price-wrapper">
+          <div class="addition__item-price-box">
+            <p class="addition__item-price">
+              50 000 рублей
+            </p>
+            <p class="addition__item-price">
+              100 000 рублей
+            </p>
+          </div>
+          <div class="addition__item-description-box">
+            <p class="addition__item-description">
+              7х12 метров
+            </p>
+            <p class="addition__item-description">
+              11х11 метров
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="addition__item">
+          <div class="addition__item-name">
+            <a class="addition__item-name-link" href="#">
+              мансардный этаж
+            </a>
+          </div>
+          <div class="addition__item-imgbox">
+            <img class="addition__item-img" src="images/addition-9.jpg" alt="" >
+          </div>
+          <div class="addition__item-price-wrapper">
+          <div class="addition__item-price-box">
+            <p class="addition__item-price">
+              500 000 рублей
+            </p>
+            <p class="addition__item-price">
+              500 000 рублей
+            </p>
+          </div>
+          <div class="addition__item-description-box">
+            <p class="addition__item-description">
+              7х12 метров
+            </p>
+            <p class="addition__item-description">
+              6,6х12 метров
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="group-companies">
+      <div class="container">
+        <h2 class="group-companies__title title">
+          Группа компаний НВМ
+        </h2>
+        <div class="group-companies__inner">
+        <div class="group-companies__items">
+          <div class="group-companies__item">
+            <div class="group-companies__item-num">
+              10 <span>лет на рынке</span>
+            </div>
+            <p class="group-companies__item-text">
+              С каждым сдаваемым домом мы прислушивались к мнениям и пожеланиям наших жильцов. Именно поэтому сегодня с уверенностью можем сказать, что наши дома построены с учетом всех предпочтений современной семьи.
+            </p>
+          </div>
+          <div class="group-companies__item">
+            <div class="group-companies__item-num">
+              5000 <span>домов</span>
+            </div>
+            <p class="group-companies__item-text">
+              Если Вы решите купить коттедж в Краснодаре от застройщика и выберите КП «Изумрудный город», будьте уверены, вы приобретаете надежное жилье для всей семьи и будущего поколения
+            </p>
+          </div>
+          <div class="group-companies__item">
+            <div class="group-companies__item-num">
+              350.000 м2 <span>жилья</span>
+            </div>
+            <p class="group-companies__item-text">
+              В наши активы входят собственные бетонный, кирпичный и кровельные заводы, своя строительная техника. Поэтому мы можем обеспечить более низкую себестоимость своим проектам.
+            </p>
+          </div>
+        </div>
+        <div class="group-companies__video-box">
+          <div class="group-companies__video-popup">
+            <a class="group-companies__video-play" data-fancybox href="https://www.youtube.com/watch?v=p4MZGo876QI">
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="slider">
+      <div class="container">
+        <h2 class="slider__title title">
+          ход строительства
+        </h2>
+        <div class="slider__wrapper">
+          <div class="slider__container">
+            <div class="slider__numbers" style="display: block;">
+              <span class="active">01</span> / <span class="total"></span>
+            </div>
+            <div class="slider-holder">
+              <div class="slider__item">
+                <div class="media-wrap">
+                  <img src="images/slider/slide-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="media-wrap">
+                  <img src="images/slider/slide-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="media-wrap">
+                  <img src="images/slider/slide-3.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="media-wrap">
+                  <img src="images/slider/slide-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="media-wrap">
+                  <img src="images/slider/slide-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="map__inner">
+          <form class="findout-price__form map__form">
+          <h3 class="findout-price__title-form">
+            Закажите обратный звонок и получите консультацию
+          </h3>
+            <input class="findout-price__input-name" type="text" placeholder="имя">
+            <input class="findout-price__input-tel" type="text" placeholder="Телефон">
+
+            <button onclick="window.location.href='#popup'" class="findout-price__form-btn"  type="submit">
+              Заказать звонок
+            </button>
+
+            <label class="findout-price__form-checkbox">
+              <input class="findout-price__form-check" type="checkbox" value="HTML">
+              Даю согласие на обработку персональных данных
+            </label>
+        </form>
+        <div class="map__box">
+          <img class="map__img" src="images/map.jpg" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a class="footer__logo" href="#">
+        <img class="footer__logo-img" src="images/logo.png" alt="">
+      </a>
+      <div class="footer__inner">
+        <a class="footer__phone" href="tel:88005506040">
+          8 (800) 550 60 40 
+        </a>
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                О проекте
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Предложения
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Как купить
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">
+                Акции
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <a class="popup__close" href="#">
+            X
+          </a>
+          <img class="popup__img" src="images/icons/popup.svg" alt="">
+          <div class="popup__title">
+            Спасибо за обращение! Мы свяжемся с вами в течение 5 минут
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer> 
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+</html>
